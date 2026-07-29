@@ -1,7 +1,17 @@
 aid: ixlayer
 name: Ixlayer
-description: Ixlayer is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Ixlayer is a direct-to-patient healthcare technology company that helps
+  biopharmaceutical companies transform the patient experience through an
+  integrated, AI-enabled platform. Its unified platform spans virtual patient
+  onboarding and intake, telehealth for primary and specialty care, at-home and
+  in-center lab testing with mobile phlebotomy, prescription fulfillment
+  (retail, specialty, and home delivery), benefits verification and claims,
+  connected care with provider directories and scheduling, and the ixAI patient
+  concierge for AI-powered support and care coordination. Ixlayer says it has
+  powered more than 1,100 nationwide programs and enabled over 4 million patient
+  care journeys, and states its services are SOC 2 Type 2, HIPAA, and GDPR
+  compliant. The company is backed by General Catalyst.
 url: https://raw.githubusercontent.com/api-evangelist/ixlayer/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +19,57 @@ x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
+image: https://ixlayer.com/wp-content/uploads/2024/11/favicon-1-300x300.png
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Healthcare
+- Digital Health
+- Biopharma
+- Telehealth
+- Lab Testing
+- Diagnostics
+- Direct-to-Patient
+- Prescription Fulfillment
+- Artificial Intelligence
 apis: []
+common:
+- type: TrustCenter
+  url: security/ixlayer-trust-center.yml
+- type: DomainSecurity
+  url: security/ixlayer-domain-security.yml
+- type: Website
+  url: https://ixlayer.com
+- type: Platform
+  url: https://ixlayer.com/platform/
+- type: Blog
+  url: https://ixlayer.com/resources
+- type: Compliance
+  url: https://trust.ixlayer.com/
+- type: PrivacyPolicy
+  url: https://ixlayer.com/privacy-policy/
+- type: TermsOfService
+  url: https://ixlayer.com/terms-of-service/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

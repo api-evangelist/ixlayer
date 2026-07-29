@@ -1,0 +1,21 @@
+{
+  "repo": "ixlayer",
+  "feeds": [
+    {
+      "source": "https://ixlayer.com/feed/",
+      "feed_url": "https://ixlayer.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://ixlayer.com/platform/",
+      "feed_url": "https://ixlayer.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-07-25T15:00:33Z"
+}
